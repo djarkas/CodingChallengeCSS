@@ -1,0 +1,116 @@
+/*Very Easy*/
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+  div { 
+    font-size: 3rem;
+    padding: 1em;
+  }
+  
+  .black{
+    background-color:black;
+  }
+  
+  .white{
+    background-color: white;
+  }
+
+
+/*Easy*/
+.easy{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.purple{
+
+    flex: 1;
+}
+
+.pink{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+
+
+.red{
+  flex:1;
+  
+}
+
+.orred{
+    background-color: red;
+    margin:0px; 
+}
+
+.orwhite{
+  background-color:white;
+  margin:0px;
+}
+
+
+
+
+
+
+
+
+/*Medium*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.looks{
+    width:auto;
+    height: 100px;
+}
+
+.products{
+    list-style-type:none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h2{
+    font-size:20px;
+    text-align:center;
+}
+h3{
+    font-size:15px;
+    text-align:center;  
+}
+
+
+/*out
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px 100px;
+  }
+
+  .products{
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  */
+
